@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build-docs": "rm -rf ./docs && react-scripts build && mv build docs",
+    "build-docs": "rm -rf ./docs && export PUBLIC_URL='/docs' && react-scripts build && mv build docs",
     "build:cjs": "tsc src/useQueryState/index.ts -t es5 -m commonjs --outDir dist/cjs --moduleResolution node",
     "build:esm": "tsc src/useQueryState/index.ts -t es5 -m esnext --outDir dist/esm --moduleResolution node",
     "build-lib": "npm run build:cjs && npm run build:esm",

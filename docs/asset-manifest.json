@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/yuanfux/use-query-state/static/css/main.b9d46026.chunk.css",
-    "main.js": "/yuanfux/use-query-state/static/js/main.b0bcfbce.chunk.js",
-    "main.js.map": "/yuanfux/use-query-state/static/js/main.b0bcfbce.chunk.js.map",
-    "runtime-main.js": "/yuanfux/use-query-state/static/js/runtime-main.44a5b345.js",
-    "runtime-main.js.map": "/yuanfux/use-query-state/static/js/runtime-main.44a5b345.js.map",
-    "static/css/2.cff5cca2.chunk.css": "/yuanfux/use-query-state/static/css/2.cff5cca2.chunk.css",
-    "static/js/2.db897a9c.chunk.js": "/yuanfux/use-query-state/static/js/2.db897a9c.chunk.js",
-    "static/js/2.db897a9c.chunk.js.map": "/yuanfux/use-query-state/static/js/2.db897a9c.chunk.js.map",
-    "index.html": "/yuanfux/use-query-state/index.html",
-    "precache-manifest.77b79a6eaf4391a1002bac4d64ca2ba7.js": "/yuanfux/use-query-state/precache-manifest.77b79a6eaf4391a1002bac4d64ca2ba7.js",
-    "service-worker.js": "/yuanfux/use-query-state/service-worker.js",
-    "static/css/2.cff5cca2.chunk.css.map": "/yuanfux/use-query-state/static/css/2.cff5cca2.chunk.css.map",
-    "static/css/main.b9d46026.chunk.css.map": "/yuanfux/use-query-state/static/css/main.b9d46026.chunk.css.map"
+    "main.css": "/docs/static/css/main.b9d46026.chunk.css",
+    "main.js": "/docs/static/js/main.a1b0edca.chunk.js",
+    "main.js.map": "/docs/static/js/main.a1b0edca.chunk.js.map",
+    "runtime-main.js": "/docs/static/js/runtime-main.32d19ec2.js",
+    "runtime-main.js.map": "/docs/static/js/runtime-main.32d19ec2.js.map",
+    "static/css/2.cff5cca2.chunk.css": "/docs/static/css/2.cff5cca2.chunk.css",
+    "static/js/2.46d868bb.chunk.js": "/docs/static/js/2.46d868bb.chunk.js",
+    "static/js/2.46d868bb.chunk.js.map": "/docs/static/js/2.46d868bb.chunk.js.map",
+    "index.html": "/docs/index.html",
+    "precache-manifest.ca223f77f849bec4862ee8726751e3c5.js": "/docs/precache-manifest.ca223f77f849bec4862ee8726751e3c5.js",
+    "service-worker.js": "/docs/service-worker.js",
+    "static/css/2.cff5cca2.chunk.css.map": "/docs/static/css/2.cff5cca2.chunk.css.map",
+    "static/css/main.b9d46026.chunk.css.map": "/docs/static/css/main.b9d46026.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.44a5b345.js",
+    "static/js/runtime-main.32d19ec2.js",
     "static/css/2.cff5cca2.chunk.css",
-    "static/js/2.db897a9c.chunk.js",
+    "static/js/2.46d868bb.chunk.js",
     "static/css/main.b9d46026.chunk.css",
-    "static/js/main.b0bcfbce.chunk.js"
+    "static/js/main.a1b0edca.chunk.js"
   ]
 }
