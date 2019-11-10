@@ -57,7 +57,7 @@ const App = () => {
 - Required: `true`
 - Description: the valued is used as the query parameter name
 
-### Options
+#### Options
 - Type: 
 	```js
 	{
