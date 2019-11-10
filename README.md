@@ -1,10 +1,10 @@
-# `useQueryState`
+# useQueryState
 > :fishing_pole_and_fish: use Query String as State
 
 # Preivew
-`useQueryState` is a React Hook that helps to bind Query String with React State and makes every user action memorizable.
-
 View  [Demo](https://yuanfux.github.io/use-query-state/)
+
+`useQueryState` is a React Hook that helps to bind Query String with React State and makes every user action memorizable.
 
 ## Prerequisite
 - react ^16.8.0
