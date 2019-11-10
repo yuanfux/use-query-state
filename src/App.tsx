@@ -75,7 +75,7 @@ const UserForm = () => {
   const [gender, setGender] = useQueryState('', 'gender');
   const [travelByYourself, setTravelByYourself] = useQueryState('', 'travelByYourself');
   const [currency, setCurrency] = useQueryState(0, 'currency', { action: 'replace', delay: 300 });
-  const [purpose, setPurpose] = useQueryState(['1', '2', '3'], 'purpose');
+  const [purpose, setPurpose] = useQueryState([], 'purpose');
   const [startTime, setStartTime] = useQueryState('', 'startTime');
   const [endTime, setEndTime] = useQueryState('', 'endTime');
 

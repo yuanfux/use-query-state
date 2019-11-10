@@ -1,6 +1,8 @@
 # `useQueryState`
 > The fastest way to use Query String as State
 
+View [Demo](https://yuanfux.github.io/use-query-state/)
+
 ## Prerequisite
 - react ^16.8.0
 - react-router-dom ^5.1.0
@@ -18,10 +20,10 @@ Basic
 import useQueryState from 'use-query-state';
 
 const App = () => {
-	const [name, setName] = useQueryState('', 'name');
-	return (
-		<div>{ name }</div>
-	);
+  const [name, setName] = useQueryState('', 'name');
+  return (
+    <div>{ name }</div>
+  );
 }
 ```
 
@@ -30,15 +32,15 @@ Advanced
 import useQueryState from 'use-query-state';
 
 const App = () => {
-	const [input, setInput] = useQueryState('hello world', 'input', { action: 'replace', delay: 300 });
-	const onInputChange = (event) => {
-		setInput(event.target.value);
-	};
-	return (
-		<div>
-			<input type="text" value={input} onChange={this.handleChange} />
-		</div>
-	);
+  const [input, setInput] = useQueryState('hello world', 'input', { action: 'replace', delay: 300 });
+  const onInputChange = (event) => {
+    setInput(event.target.value);
+  };
+  return (
+    <div>
+      <input type="text" value={input} onChange={this.handleChange} />
+    </div>
+  );
 }
 ```
 
@@ -59,17 +61,17 @@ const App = () => {
 
 #### Options
 - Type: 
-	```js
-	{
-		action?: 'push' | 'replace',
-		delay?: number 
-	}
-	```
+  ```js
+  {
+    action?: 'push' | 'replace',
+    delay?: number 
+  }
+  ```
 - Required: `false`
 - Description: 
-	`action` is defining how to mutate the history state. `action` defaults to `'push'`.
-	`delay` is defining the debounce wait time for mutating the history state when using `Setter`.
-	`delay` defaults to `0`.
+  `action` is defining how to mutate the history state. `action` defaults to `'push'`.
+  `delay` is defining the debounce wait time for mutating the history state when using `Setter`.
+  `delay` defaults to `0`.
 
 #### Value
 - Type: `string`  |  `boolean`  |  `number`  |  `string[]` | `undefined` | `null`
