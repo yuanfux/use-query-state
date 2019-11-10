@@ -181,11 +181,11 @@ const UserForm = () => {
             <Button
               className="margin-right"
               type="primary">
-              <Link to="/?name=Jason&gender=0&travelByYourself=1&currency=10&purpose=1,2&startTime=1573896342384&endTime=1576661142384">Fill</Link>
+              <Link to={location => `${location.pathname}?name=Jason&gender=0&travelByYourself=1&currency=10&purpose=1,2&startTime=1573896342384&endTime=1576661142384`}>Fill</Link>
             </Button>
             <Button
               type="primary">
-              <Link to="/">
+              <Link to={location => `${location.pathname}`}>
                 Reset
               </Link>
             </Button>
