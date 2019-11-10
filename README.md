@@ -1,7 +1,10 @@
 # `useQueryState`
-> The fastest way to use Query String as State
+> :fishing_pole_and_fish: use Query String as State
 
-View [Demo](https://yuanfux.github.io/use-query-state/)
+# Preivew
+`useQueryState` is a React Hook that helps to bind Query String with React State and makes every user action memorizable.
+
+View  [Demo](https://yuanfux.github.io/use-query-state/)
 
 ## Prerequisite
 - react ^16.8.0
@@ -13,7 +16,7 @@ npm install use-query-state
 ```
 
 ## Usage
-> just like `setState`
+> just like using `setState`
 
 Basic
 ```js
@@ -57,7 +60,7 @@ const App = () => {
 #### QueryParamName
 - Type: `string`
 - Required: `true`
-- Description: the valued is used as the query parameter name
+- Description: the value is used as the query parameter name
 
 #### Options
 - Type: 
@@ -68,10 +71,11 @@ const App = () => {
   }
   ```
 - Required: `false`
-- Description: 
-  `action` is defining how to mutate the history state. `action` defaults to `'push'`.
-  `delay` is defining the debounce wait time for mutating the history state when using `Setter`.
-  `delay` defaults to `0`.
+- Description:
+  - `action` is defining how to mutate the history state<br>
+    `action` defaults to `'push'`
+  - `delay` is defining the debounce wait time for mutating the history state when using `Setter`<br>
+    `delay` defaults to `0`.
 
 #### Value
 - Type: `string`  |  `boolean`  |  `number`  |  `string[]` | `undefined` | `null`
