@@ -1,0 +1,69 @@
+{
+  "name": "use-query-state",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "dependencies": {
+    "query-string": "^6.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.21",
+    "@types/node": "12.12.5",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "@types/react-router-dom": "^5.1.2",
+    "antd": "^3.25.0",
+    "moment": "^2.24.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-github-corner": "^2.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-docs": "react-scripts build",
+    "build:cjs": "tsc src/useQueryState/index.ts -t es5 -m commonjs --outDir dist/cjs --moduleResolution node",
+    "build:esm": "tsc src/useQueryState/index.ts -t es5 -m esnext --outDir dist/esm --moduleResolution node",
+    "build-lib": "npm run build:cjs && npm run build:esm",
+    "build": "npm run build-docs && npm run build-lib",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanfux/use-query-state.git"
+  },
+  "author": "Yuan Fu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanfux/use-query-state/issues"
+  },
+  "homepage": "https://github.com/yuanfux/use-query-state#readme"
+}
