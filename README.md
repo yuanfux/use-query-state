@@ -18,7 +18,7 @@ npm install use-query-state
 ## Usage
 > just like using `setState`
 
-### Basic
+#### Basic
 ```js
 import useQueryState from 'use-query-state';
 
@@ -37,7 +37,7 @@ const App = () => {
 ```
 [![Edit Basic Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-router-5h8c6?fontsize=14)
 
-### Advanced
+#### Advanced
 ```js
 import useQueryState from 'use-query-state';
 
